@@ -1,0 +1,100 @@
+POSTMAN REQUEST
+
+#######################
+###     SIGNUP      ###
+#######################
+
+{
+	"username": "salapo",
+    "firstName": "Sammba",
+    "lastName": "Pam",
+    "birthDate": "1998-12-09",
+    "age": 22,
+    "email": "aa@sg.ca",
+    "phoneNumber": "418-473-2992",
+    "address":{
+    	"streetNumber":"25",
+    	"addressLine1": "Rue Sainte Colombe",
+    	"addressLine2": "App 3",
+    	"zipCode": "94240",
+    	"city": "L'Hay",
+    	"country": "France"
+    },
+    "password": "abcdef"
+}
+
+#######################
+###     LOGIN       ###
+#######################
+
+{
+	"emailOrPhone": "4184732992",
+	"password":"abcdef"
+}
+
+#########################
+###     RESERVATION   ###
+#########################
+{
+	"partySize" : 11,
+    "startTime" : "2020-03-29T12:00:00.000Z",
+    "endTime" : "2020-03-29T12:00:00.000Z",
+    "durationInMinutes" : 60,
+    "reservationStatus" : "Newxx",
+    "underName" : "Djiby",
+    "bookingTime" : "2020-01-29T12:00:00.000Z",
+    "broker" : "ALTAS VIS",
+    "priceCurrency" : 75.17,
+    "reservationFor" : "Party",
+    "description" : "Desc"
+   }
+
+####################################
+###### CREATE A RESTAURANT #########
+####################################
+
+{
+"name ": "alpha",
+"contact": "gestion",
+"address":{
+"streetNumber":"3",
+"addressLine1": "cianngol",
+"addressLine2":"kubec",
+"zipCode":"4d5ed5",
+"city":"wothington",
+"state":"Fouta",
+"country":"Mauritanie"}
+}
+################################################################
+################## Update RESTAURANT ###########################
+################################################################
+{
+"name": "alpha",
+"contact": "gestion",
+"phoneNumber": "+14184732990",
+"address":{
+	"streetNumber":"3",
+	"addressLine1": "cianngol",
+	"addressLine2":"kubec",
+	"zipCode":"4d5ed5",
+	"city":"wothington",
+	"state":"Fouta",
+	"country":"corompolé"
+	}
+}
+################################################################
+################## Delete RESTAURANT ###########################
+################################################################
+
+"contact": "gestion",
+"phoneNumber": "+14184732990",
+"address":{
+	"streetNumber":"3",
+	"addressLine1": "cianngol",
+	"addressLine2":"kubec",
+	"zipCode":"4d5ed5",
+	"city":"wothington",
+	"state":"Fouta",
+	"country":"corompolé"
+	}
+}

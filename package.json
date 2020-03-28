@@ -1,0 +1,41 @@
+{
+  "name": "hayosante_bot_backend",
+  "version": "1.0.0",
+  "description": "Hayyosante Booking App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "debug": "node --nolazy --inspect server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janngomaa/hayosante_backend.git"
+  },
+  "keywords": [
+    "Sante",
+    "Hayosante",
+    "Chatbot"
+  ],
+  "author": "AutomatedBiz",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-request-id": "^1.4.1",
+    "express-winston": "^4.0.2",
+    "joi-phone-number": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2",
+    "winston-mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
